@@ -1,0 +1,30 @@
+{
+  "name": "laba1smp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3Mira3/Laba1SMP.git"
+  },
+  "keywords": [],
+  "author": "Romanenko Myroslava, KI-221",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3Mira3/Laba1SMP/issues"
+  },
+  "homepage": "https://github.com/3Mira3/Laba1SMP#readme",
+  "description": "Лабораторна робота Express + Jest",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
